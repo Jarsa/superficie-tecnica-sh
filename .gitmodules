@@ -1,0 +1,4 @@
+[submodule "odoo-utilities"]
+	path = odoo-utilities
+	url = git@git.vauxoo.com:Jarsa/odoo-utilities.git
+	branch = 12.0
