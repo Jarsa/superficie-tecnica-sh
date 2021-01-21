@@ -2,3 +2,7 @@
 	path = odoo-utilities
 	url = git@git.vauxoo.com:Jarsa/odoo-utilities.git
 	branch = 12.0
+[submodule "mexico"]
+	path = mexico
+	url = git@git.vauxoo.com:jarsa/mexico.git
+	branch = 12.0
