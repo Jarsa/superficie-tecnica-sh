@@ -27,7 +27,7 @@
             <t t-else="">
                 <tr class="border-black o_subtotal" style="">
                     <td><strong>Subtotal</strong></td>
-                    <td class="text-right">
+                    <td class="terext-right">
                         <span t-field="o.amount_untaxed"/>
                     </td>
                 </tr>

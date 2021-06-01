@@ -15,4 +15,7 @@
     'depends': [
         'l10n_mx_edi',
     ],
+    'data': [
+        'reports/report_account_move_view.xml'
+    ]
 }
