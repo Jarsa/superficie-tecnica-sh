@@ -11,3 +11,7 @@
 	path = Nomina
 	url = git@github.com:itadmin01/jarsa.git
 	branch = 14.0
+[submodule "reporting-engine"]
+	path = reporting-engine
+	url = git@github.com:jarsa/reporting-engine.git
+	branch = 14.0
