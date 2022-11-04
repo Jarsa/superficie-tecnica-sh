@@ -33,25 +33,5 @@
                 </tr>
             </t>
         </xpath>
-        <xpath expr="//th[@name='th_price_unit']" position="replace">
-            <th t-attf-class="text-right {{ 'd-none d-md-table-cell' if report_type == 'html' else '' }}">
-                <span>Materia prima</span>
-            </th>
-        </xpath>
-        <xpath expr="//th[@name='th_taxes']" position="replace">
-            <th t-attf-class="text-right {{ 'd-none d-md-table-cell' if report_type == 'html' else '' }}">
-                <span>Valor agregado</span>
-            </th>
-        </xpath>
-        <xpath expr="//td[6]" position="replace">
-            <th>
-                <field name="o.raw_material"/>
-            </th>
-        </xpath>
-        <xpath expr="//td[7]" position="replace">
-            <th>
-                <field name="o.value_added"/>
-            </th>
-        </xpath>
     </template>
 </odoo>

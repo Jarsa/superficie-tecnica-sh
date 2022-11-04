@@ -13,6 +13,5 @@
     ],
     'data': [
         'reports/report_account_invoice.xml',
-        'views/account_move_view.xml',
     ],
 }
