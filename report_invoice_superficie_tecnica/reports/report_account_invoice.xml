@@ -43,15 +43,19 @@
                 <span>Valor agregado</span>
             </th>
         </xpath>
-        <xpath expr="//td[6]" position="replace">
-            <th>
-                <field name="o.raw_material"/>
-            </th>
+        <xpath expr="//td[5]" position="replace">
+            <td class="text-right">
+                <span t-field="line.raw_material" t-options="{'widget': 'text'}" style="text-align:right;"/>
+            </td>
         </xpath>
         <xpath expr="//td[7]" position="replace">
-            <th>
-                <field name="o.value_added"/>
-            </th>
+            <td class="text-right">
+                <spab t-field="line.value_added" t-options="{'widget': 'text'}" style="text-align:right;"/>
+            </td>
+        </xpath>
+        <xpath expr="//p[@name='payment_communication']" position="before">
+            <strong>Total with letter: </strong><span t-esc="o.currency_id.amount_to_text(o.amount_total)"/>
+            <br/>
         </xpath>
     </template>
 </odoo>
