@@ -60,6 +60,11 @@ msgid "<strong>Subtotal</strong>"
 msgstr ""
 
 #. module: report_invoice_superficie_tecnica
+#: model_terms:ir.ui.view,arch_db:report_invoice_superficie_tecnica.report_account_invoice_superficie_tecnica
+msgid "<strong>Total with letter: </strong>"
+msgstr "<strong>Total con letra: </strong>"
+
+#. module: report_invoice_superficie_tecnica
 #: model:ir.model.fields,field_description:report_invoice_superficie_tecnica.field_account_move_line__display_name
 msgid "Display Name"
 msgstr "Nombre en pantalla"
