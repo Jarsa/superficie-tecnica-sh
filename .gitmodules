@@ -1,11 +1,11 @@
 [submodule "odoo-utilities"]
 	path = odoo-utilities
 	url = git@git.vauxoo.com:Jarsa/odoo-utilities.git
-	branch = 12.0
+	branch = 14.0
 [submodule "mexico"]
 	path = mexico
 	url = git@git.vauxoo.com:jarsa/mexico.git
-	branch = 12.0
+	branch = 14.0
 
 [submodule "Nomina"]
 	path = Nomina
@@ -19,4 +19,8 @@
 [submodule "odoo-cloc"]
 	path = odoo-cloc
 	url = git@github.com:Jarsa/odoo-cloc.git
+	branch = 14.0
+[submodule "superficie-tecnica"]
+	path = superficie-tecnica
+	url = git@git.jarsa.com:jarsa/superficie-tecnica.git
 	branch = 14.0
