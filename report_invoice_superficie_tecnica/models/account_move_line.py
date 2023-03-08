@@ -11,7 +11,7 @@ class AccountMoveLine(models.Model):
     raw_material = fields.Float()
     value_added = fields.Float(store=True, compute="_compute_bank_line_count")
 
-    @api.depends('raw_material', 'price_subtotal')
+    @api.onchange('raw_material', 'price_subtotal')
     def _compute_bank_line_count(self):
         for rec in self:
             rec.value_added = rec.price_subtotal - rec.raw_material
